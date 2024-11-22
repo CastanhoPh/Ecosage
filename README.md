@@ -96,3 +96,6 @@ Este projeto pode ser simulado no Wokwi para testes sem necessidade de hardware 
 ---
 
 Com esse projeto, é possível criar um sistema completo de monitoramento e controle de corrente elétrica com comunicação IoT via MQTT, oferecendo insights e ações interativas em tempo real!
+
+## **Fotos dos dashboards e fluxos**
+[Acesse a pasta no Google Drive](https://drive.google.com/drive/folders/1JdKA_l8NR0mpUKcBIBIFY5eMIhQ_Xyrv?usp=drive_link)
