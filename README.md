@@ -77,7 +77,7 @@ Este projeto utiliza um ESP32 para monitorar a corrente elétrica, controlar LED
 3. **Configuração do Dashboard**
    - Utilize o nó `ui_gauge` para exibir o valor de `Corrente_Elétrica`.
    - Utilize o nó `ui_text` para mostrar os avisos recebidos do tópico `Aviso`.
-   - Utilize o nó `ui_switch` (opcional) para enviar comandos para o ESP32 por meio do tópico `Relay`.
+   - Utilize o nó `ui_text` para exibir estado do relay por meio do tópico `Relay`.
 
 ---
 
@@ -86,7 +86,6 @@ Este projeto utiliza um ESP32 para monitorar a corrente elétrica, controlar LED
 1. O ESP32 lê a corrente e determina o status.
 2. Publica os dados nos tópicos MQTT.
 3. O Node-RED recebe os dados e atualiza o dashboard.
-4. (Opcional) O Node-RED pode enviar comandos de controle ao ESP32 para ativar/desativar o relé.
 
 ---
 
