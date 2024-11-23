@@ -21,7 +21,7 @@ Este projeto utiliza um ESP32 para monitorar a corrente elétrica, controlar LED
 | 0    | LED Amarelo                   |
 | 4    | LED Vermelho                  |
 | 15   | Controle do Relé              |
-| A0 (34 no código) | Leitura do sensor analógico |
+| 34 | Leitura do sensor analógico |
 | 22   | Indicador de Wi-Fi conectado  |
 | 23   | Indicador de conexão ao Mosquitto |
 
